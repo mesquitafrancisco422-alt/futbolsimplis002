@@ -19,6 +19,16 @@
 </script>
 </head>
   <body>
+    <script>
+      // Polyfill process.env for the browser environment where it's not natively available.
+      // This is a necessary step to allow the application to access the API key
+      // in the manner prescribed by the coding guidelines.
+      window.process = {
+        env: {
+          API_KEY: "AIzaSyBa1VQp3PyhMuAVZPc6wqVXguFbRJ-1Rzc"
+        }
+      };
+    </script>
     <div id="root"></div>
     <!-- The service worker is registered in index.tsx -->
     <script type="module" src="/index.tsx"></script>
