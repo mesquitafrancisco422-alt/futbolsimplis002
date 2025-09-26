@@ -1,0 +1,5 @@
+{
+  "name": "Guia de Jogos TV",
+  "description": "Um aplicativo para TV e celular que mostra onde assistir aos jogos de futebol do Brasileirão, Libertadores e Copa do Brasil, com links diretos para os canais e streams.",
+  "requestFramePermissions": []
+}
